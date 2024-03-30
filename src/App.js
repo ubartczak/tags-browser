@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TagsTable from './components/TagsTable';
+import AgGridTable from './components/AgGridTable.tsx';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 
             </header>
             <body className="App-body">
-                <TagsTable />
+                <AgGridTable />
             </body>
         </div>
     );
