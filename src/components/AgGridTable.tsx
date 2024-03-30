@@ -23,7 +23,6 @@ const AgGridTable = () => {
         {
             headerName: "name",
             field: "name",
-            width: 90,
             flex: 1
         },
         {
