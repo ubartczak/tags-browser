@@ -1,15 +1,11 @@
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import AgGridTable from "./components/AgGridTable.tsx";
-
+import "./components/AgGridTable.css"
+import "bootstrap/dist/css/bootstrap.min.css"
+import HomePage from "./components/HomePage.tsx"
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header" />
-            <div className="App-body">
-                <AgGridTable />
-            </div>
+        <div>
+            <HomePage />
         </div>
     );
 }

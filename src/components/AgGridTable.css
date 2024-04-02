@@ -1,0 +1,44 @@
+.default-page {
+    text-align: center;
+    background-color: #181d1f;
+    color: white; 
+    height: 100vh;
+  }
+  
+  .ag-picker-field {
+    display: none !important;
+  }
+  
+  .ag-paging-row-summary-panel {
+    display: none !important;
+  }
+  
+  .page-spinner {
+    z-index: 999;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh; 
+  }
+  
+  .page-alert {
+    z-index: 999;
+    position: fixed;
+    width: 100vw;
+    justify-content: center;
+    opacity: 0.95;
+  }
+  
+  .ag-header-cell-text {
+    flex: 1;
+  }
+  
+  .form-control-custom {
+    border-color: #68686e !important;
+    border-radius: 0 !important;
+    background-color: #222628 !important;
+  }
